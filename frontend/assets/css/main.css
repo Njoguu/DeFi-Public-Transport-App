@@ -1,0 +1,10 @@
+body{
+    background-color: #2c3A3A;
+    color: snow;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#connect-wallet-btn{
+    float: right;
+    padding: 9px;
+    margin: 20px;
+}
