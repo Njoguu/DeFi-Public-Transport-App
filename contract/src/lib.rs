@@ -3,8 +3,6 @@ use near_sdk::{env, near_bindgen, AccountId, Promise};
 use near_sdk::collections::Vector;
 use near_sdk::collections::LookupMap;
 
-// // Define the default message
-const DEFAULT_MESSAGE: &str = "";
 
 // Login Info structure
 #[near_bindgen]
@@ -153,6 +151,21 @@ impl Login {
         return self.message.clone();
     }
     // TODO
+}
 
-    
+// Write tests
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn get_created_vehicle() {
+
+        
+    }
+
+    #[test]
+    fn test_payment(){
+        
+    }
 }
